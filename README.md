@@ -1,8 +1,6 @@
-# Code for probing experiments 
-described in the paper
+# Code for probing experiments described in the paper
 
-_New or Old? Exploring How Pre-Trained
-Language Models Represent Discourse Entities_
+_New or Old? Exploring How Pre-Trained Language Models Represent Discourse Entities_
 
 ## Step 1: Get the ARRAU corpus
 The corpus can be acquired through the [LDC](https://catalog.ldc.upenn.edu/LDC2013T22).
