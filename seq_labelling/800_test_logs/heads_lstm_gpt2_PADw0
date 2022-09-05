@@ -1,0 +1,89 @@
+17/08/2022 13:20:03 - INFO - Loading test dataset...
+17/08/2022 13:20:03 - INFO - Extracting embeddings from pre-trained model...
+17/08/2022 13:20:03 - INFO - Finished!
+17/08/2022 13:20:03 - INFO - Starting evaluation mode with test...
+17/08/2022 13:20:03 - INFO - ***** Running evaluation *****
+/home/sharid/.env/lib/python3.8/site-packages/torchcrf/__init__.py:305: UserWarning: where received a uint8 condition tensor. This behavior is deprecated and will be removed in a future version of PyTorch. Use a boolean condition instead. (Triggered internally at  ../aten/src/ATen/native/TensorCompare.cpp:402.)
+  score = torch.where(mask[i].unsqueeze(1), next_score, score)
+17/08/2022 13:20:08 - INFO - data_size: 680
+17/08/2022 13:20:08 - INFO - Accuracy: 0.8967393789728815
+17/08/2022 13:20:08 - INFO - Detailed evaluation:
+              precision    recall  f1-score   support
+
+         new       0.76      0.74      0.75      2885
+         old       0.78      0.81      0.79      2122
+
+   micro avg       0.77      0.77      0.77      5007
+   macro avg       0.77      0.78      0.77      5007
+weighted avg       0.77      0.77      0.77      5007
+
+17/08/2022 13:20:09 - INFO - Starting evaluation mode with test...
+17/08/2022 13:20:09 - INFO - ***** Running evaluation *****
+17/08/2022 13:20:11 - INFO - data_size: 680
+17/08/2022 13:20:11 - INFO - Accuracy: 0.8968765720034756
+17/08/2022 13:20:11 - INFO - Detailed evaluation:
+              precision    recall  f1-score   support
+
+         new       0.77      0.74      0.75      2885
+         old       0.77      0.82      0.79      2122
+
+   micro avg       0.77      0.77      0.77      5007
+   macro avg       0.77      0.78      0.77      5007
+weighted avg       0.77      0.77      0.77      5007
+
+17/08/2022 13:20:12 - INFO - Starting evaluation mode with test...
+17/08/2022 13:20:12 - INFO - ***** Running evaluation *****
+17/08/2022 13:20:14 - INFO - data_size: 680
+17/08/2022 13:20:14 - INFO - Accuracy: 0.8955046416975351
+17/08/2022 13:20:14 - INFO - Detailed evaluation:
+              precision    recall  f1-score   support
+
+         new       0.78      0.72      0.75      2885
+         old       0.78      0.81      0.79      2122
+
+   micro avg       0.78      0.76      0.77      5007
+   macro avg       0.78      0.76      0.77      5007
+weighted avg       0.78      0.76      0.77      5007
+
+17/08/2022 13:20:14 - INFO - Starting evaluation mode with test...
+17/08/2022 13:20:14 - INFO - ***** Running evaluation *****
+17/08/2022 13:20:17 - INFO - data_size: 680
+17/08/2022 13:20:17 - INFO - Accuracy: 0.8963735308912973
+17/08/2022 13:20:17 - INFO - Detailed evaluation:
+              precision    recall  f1-score   support
+
+         new       0.74      0.76      0.75      2885
+         old       0.78      0.80      0.79      2122
+
+   micro avg       0.76      0.78      0.77      5007
+   macro avg       0.76      0.78      0.77      5007
+weighted avg       0.76      0.78      0.77      5007
+
+17/08/2022 13:20:17 - INFO - Starting evaluation mode with test...
+17/08/2022 13:20:17 - INFO - ***** Running evaluation *****
+17/08/2022 13:20:20 - INFO - data_size: 680
+17/08/2022 13:20:20 - INFO - Accuracy: 0.9002606667581287
+17/08/2022 13:20:20 - INFO - Detailed evaluation:
+              precision    recall  f1-score   support
+
+         new       0.75      0.76      0.76      2885
+         old       0.81      0.80      0.81      2122
+
+   micro avg       0.78      0.78      0.78      5007
+   macro avg       0.78      0.78      0.78      5007
+weighted avg       0.78      0.78      0.78      5007
+
+{'new': {'precision': 0.7582921665490473, 'recall': 0.7448873483535529, 'f1-score': 0.7515299877600979, 'support': 2885}, 'old': {'precision': 0.7760252365930599, 'recall': 0.8114985862393967, 'f1-score': 0.7933655839668279, 'support': 2122}, 'micro avg': {'precision': 0.7660795566989907, 'recall': 0.7731176353105652, 'f1-score': 0.7695825049701789, 'support': 5007}, 'macro avg': {'precision': 0.7671587015710536, 'recall': 0.7781929672964748, 'f1-score': 0.7724477858634629, 'support': 5007}, 'weighted avg': {'precision': 0.7658075599249999, 'recall': 0.7731176353105652, 'f1-score': 0.7692601925035932, 'support': 5007}}
+{'new': {'precision': 0.7667870036101083, 'recall': 0.7362218370883882, 'f1-score': 0.7511936339522546, 'support': 2885}, 'old': {'precision': 0.7702523240371846, 'recall': 0.8199811498586239, 'f1-score': 0.7943391919653048, 'support': 2122}, 'micro avg': {'precision': 0.7683436070789421, 'recall': 0.7717195925704015, 'f1-score': 0.7700278995615782, 'support': 5007}, 'macro avg': {'precision': 0.7685196638236464, 'recall': 0.778101493473506, 'f1-score': 0.7727664129587797, 'support': 5007}, 'weighted avg': {'precision': 0.7682556295230812, 'recall': 0.7717195925704015, 'f1-score': 0.7694790092475796, 'support': 5007}}
+{'new': {'precision': 0.7807083647324793, 'recall': 0.7181975736568458, 'f1-score': 0.7481494854666908, 'support': 2885}, 'old': {'precision': 0.7777777777777778, 'recall': 0.8114985862393967, 'f1-score': 0.7942804428044281, 'support': 2122}, 'micro avg': {'precision': 0.7793755135579293, 'recall': 0.7577391651687637, 'f1-score': 0.7684050632911392, 'support': 5007}, 'macro avg': {'precision': 0.7792430712551286, 'recall': 0.7648480799481212, 'f1-score': 0.7712149641355595, 'support': 5007}, 'weighted avg': {'precision': 0.7794663624321245, 'recall': 0.7577391651687637, 'f1-score': 0.7677000929104053, 'support': 5007}}
+{'new': {'precision': 0.7426743011114854, 'recall': 0.7642980935875217, 'f1-score': 0.7533310556884181, 'support': 2885}, 'old': {'precision': 0.7824095281722401, 'recall': 0.8049010367577757, 'f1-score': 0.7934959349593497, 'support': 2122}, 'micro avg': {'precision': 0.7595108695652174, 'recall': 0.7815058917515478, 'f1-score': 0.7703514125406045, 'support': 5007}, 'macro avg': {'precision': 0.7625419146418627, 'recall': 0.7845995651726487, 'f1-score': 0.7734134953238838, 'support': 5007}, 'weighted avg': {'precision': 0.7595143554000656, 'recall': 0.7815058917515478, 'f1-score': 0.7703531994497356, 'support': 5007}}
+{'new': {'precision': 0.75042793563848, 'recall': 0.759792027729636, 'f1-score': 0.7550809507406131, 'support': 2885}, 'old': {'precision': 0.8094330633635064, 'recall': 0.8006597549481621, 'f1-score': 0.8050225065150437, 'support': 2122}, 'micro avg': {'precision': 0.7750996015936255, 'recall': 0.7771120431396046, 'f1-score': 0.7761045178019347, 'support': 5007}, 'macro avg': {'precision': 0.7799304995009932, 'recall': 0.7802258913388991, 'f1-score': 0.7800517286278283, 'support': 5007}, 'weighted avg': {'precision': 0.7754347023715549, 'recall': 0.7771120431396046, 'f1-score': 0.776246515221009, 'support': 5007}}
+new
+prec: 0.76 (0.01)
+rec: 0.74 (0.02)
+f1: 0.75 (0.00)
+old
+prec: 0.78 (0.02)
+rec: 0.81 (0.01)
+f1: 0.80 (0.01)
+avg f1: 0.77 (0.00)

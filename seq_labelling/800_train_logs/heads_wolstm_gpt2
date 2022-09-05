@@ -1,0 +1,223 @@
+17/08/2022 13:58:48 - INFO - Loading train dataset...
+17/08/2022 13:58:48 - INFO - Extracting embeddings from pre-trained model...
+17/08/2022 13:58:48 - INFO - Finished!
+17/08/2022 13:58:48 - INFO - Loading dev dataset...
+17/08/2022 13:58:48 - INFO - Extracting embeddings from pre-trained model...
+17/08/2022 13:58:48 - INFO - Finished!
+17/08/2022 13:58:48 - INFO - Starting training mode...
+17/08/2022 13:58:48 - INFO - ***** Running training *****
+/home/sharid/.env/lib/python3.8/site-packages/torchcrf/__init__.py:249: UserWarning: where received a uint8 condition tensor. This behavior is deprecated and will be removed in a future version of PyTorch. Use a boolean condition instead. (Triggered internally at  ../aten/src/ATen/native/TensorCompare.cpp:402.)
+  score = torch.where(mask[i].unsqueeze(1), next_score, score)
+17/08/2022 13:59:05 - INFO - Epoch 0 training loss: 34.2835
+17/08/2022 13:59:05 - INFO - Epoch 0 validation loss: 15.4670
+17/08/2022 13:59:05 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_0_see_170841_bat_64_hid_256_los_15.4670
+17/08/2022 13:59:21 - INFO - Epoch 1 training loss: 14.2978
+17/08/2022 13:59:21 - INFO - Epoch 1 validation loss: 12.4606
+17/08/2022 13:59:21 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_1_see_170841_bat_64_hid_256_los_12.4606
+17/08/2022 13:59:36 - INFO - Epoch 2 training loss: 12.1472
+17/08/2022 13:59:36 - INFO - Epoch 2 validation loss: 11.3658
+17/08/2022 13:59:36 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_2_see_170841_bat_64_hid_256_los_11.3658
+17/08/2022 13:59:52 - INFO - Epoch 3 training loss: 11.0545
+17/08/2022 13:59:52 - INFO - Epoch 3 validation loss: 10.4621
+17/08/2022 13:59:52 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_3_see_170841_bat_64_hid_256_los_10.4621
+17/08/2022 14:00:08 - INFO - Epoch 4 training loss: 10.3684
+17/08/2022 14:00:08 - INFO - Epoch 4 validation loss: 10.2145
+17/08/2022 14:00:08 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_4_see_170841_bat_64_hid_256_los_10.2145
+17/08/2022 14:00:25 - INFO - Epoch 5 training loss: 9.9164
+17/08/2022 14:00:25 - INFO - Epoch 5 validation loss: 9.8265
+17/08/2022 14:00:25 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_5_see_170841_bat_64_hid_256_los_9.8265
+17/08/2022 14:00:41 - INFO - Epoch 6 training loss: 9.4363
+17/08/2022 14:00:41 - INFO - Epoch 6 validation loss: 9.7217
+17/08/2022 14:00:41 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_6_see_170841_bat_64_hid_256_los_9.7217
+17/08/2022 14:00:56 - INFO - Epoch 7 training loss: 9.2723
+17/08/2022 14:00:56 - INFO - Epoch 7 validation loss: 9.7769
+17/08/2022 14:01:13 - INFO - Epoch 8 training loss: 9.2132
+17/08/2022 14:01:13 - INFO - Epoch 8 validation loss: 9.2179
+17/08/2022 14:01:13 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_8_see_170841_bat_64_hid_256_los_9.2179
+17/08/2022 14:01:31 - INFO - Epoch 9 training loss: 8.9584
+17/08/2022 14:01:31 - INFO - Epoch 9 validation loss: 9.5792
+17/08/2022 14:01:47 - INFO - Epoch 10 training loss: 8.8250
+17/08/2022 14:01:47 - INFO - Epoch 10 validation loss: 10.2033
+17/08/2022 14:02:04 - INFO - Epoch 11 training loss: 8.8243
+17/08/2022 14:02:04 - INFO - Epoch 11 validation loss: 9.2510
+17/08/2022 14:02:20 - INFO - Epoch 12 training loss: 8.7050
+17/08/2022 14:02:20 - INFO - Epoch 12 validation loss: 10.1010
+17/08/2022 14:02:20 - INFO - Starting training mode...
+17/08/2022 14:02:20 - INFO - ***** Running training *****
+17/08/2022 14:02:36 - INFO - Epoch 0 training loss: 49.7828
+17/08/2022 14:02:36 - INFO - Epoch 0 validation loss: 16.6048
+17/08/2022 14:02:36 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_0_see_28202_bat_64_hid_256_los_16.6048
+17/08/2022 14:02:51 - INFO - Epoch 1 training loss: 14.6752
+17/08/2022 14:02:51 - INFO - Epoch 1 validation loss: 12.1015
+17/08/2022 14:02:51 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_1_see_28202_bat_64_hid_256_los_12.1015
+17/08/2022 14:03:06 - INFO - Epoch 2 training loss: 12.1730
+17/08/2022 14:03:06 - INFO - Epoch 2 validation loss: 10.9405
+17/08/2022 14:03:06 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_2_see_28202_bat_64_hid_256_los_10.9405
+17/08/2022 14:03:21 - INFO - Epoch 3 training loss: 11.0469
+17/08/2022 14:03:21 - INFO - Epoch 3 validation loss: 10.4901
+17/08/2022 14:03:21 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_3_see_28202_bat_64_hid_256_los_10.4901
+17/08/2022 14:03:36 - INFO - Epoch 4 training loss: 10.3658
+17/08/2022 14:03:36 - INFO - Epoch 4 validation loss: 9.9710
+17/08/2022 14:03:36 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_4_see_28202_bat_64_hid_256_los_9.9710
+17/08/2022 14:03:50 - INFO - Epoch 5 training loss: 10.0216
+17/08/2022 14:03:50 - INFO - Epoch 5 validation loss: 9.7813
+17/08/2022 14:03:50 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_5_see_28202_bat_64_hid_256_los_9.7813
+17/08/2022 14:04:05 - INFO - Epoch 6 training loss: 9.6371
+17/08/2022 14:04:05 - INFO - Epoch 6 validation loss: 9.5234
+17/08/2022 14:04:05 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_6_see_28202_bat_64_hid_256_los_9.5234
+17/08/2022 14:04:20 - INFO - Epoch 7 training loss: 9.3607
+17/08/2022 14:04:20 - INFO - Epoch 7 validation loss: 9.2608
+17/08/2022 14:04:20 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_7_see_28202_bat_64_hid_256_los_9.2608
+17/08/2022 14:04:34 - INFO - Epoch 8 training loss: 9.2189
+17/08/2022 14:04:34 - INFO - Epoch 8 validation loss: 9.3227
+17/08/2022 14:04:49 - INFO - Epoch 9 training loss: 9.0340
+17/08/2022 14:04:49 - INFO - Epoch 9 validation loss: 9.1214
+17/08/2022 14:04:49 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_9_see_28202_bat_64_hid_256_los_9.1214
+17/08/2022 14:05:04 - INFO - Epoch 10 training loss: 8.8734
+17/08/2022 14:05:04 - INFO - Epoch 10 validation loss: 10.7347
+17/08/2022 14:05:20 - INFO - Epoch 11 training loss: 8.8870
+17/08/2022 14:05:20 - INFO - Epoch 11 validation loss: 9.4723
+17/08/2022 14:05:35 - INFO - Epoch 12 training loss: 8.7412
+17/08/2022 14:05:35 - INFO - Epoch 12 validation loss: 9.2652
+17/08/2022 14:05:50 - INFO - Epoch 13 training loss: 8.6408
+17/08/2022 14:05:50 - INFO - Epoch 13 validation loss: 9.3224
+17/08/2022 14:05:50 - INFO - Starting training mode...
+17/08/2022 14:05:50 - INFO - ***** Running training *****
+17/08/2022 14:06:06 - INFO - Epoch 0 training loss: 35.7226
+17/08/2022 14:06:06 - INFO - Epoch 0 validation loss: 15.6597
+17/08/2022 14:06:06 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_0_see_335628_bat_64_hid_256_los_15.6597
+17/08/2022 14:06:22 - INFO - Epoch 1 training loss: 14.5161
+17/08/2022 14:06:22 - INFO - Epoch 1 validation loss: 12.8729
+17/08/2022 14:06:22 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_1_see_335628_bat_64_hid_256_los_12.8729
+17/08/2022 14:06:37 - INFO - Epoch 2 training loss: 12.3655
+17/08/2022 14:06:37 - INFO - Epoch 2 validation loss: 11.1063
+17/08/2022 14:06:37 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_2_see_335628_bat_64_hid_256_los_11.1063
+17/08/2022 14:06:53 - INFO - Epoch 3 training loss: 11.0880
+17/08/2022 14:06:53 - INFO - Epoch 3 validation loss: 10.4758
+17/08/2022 14:06:53 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_3_see_335628_bat_64_hid_256_los_10.4758
+17/08/2022 14:07:08 - INFO - Epoch 4 training loss: 10.3505
+17/08/2022 14:07:08 - INFO - Epoch 4 validation loss: 10.1648
+17/08/2022 14:07:08 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_4_see_335628_bat_64_hid_256_los_10.1648
+17/08/2022 14:07:24 - INFO - Epoch 5 training loss: 9.8784
+17/08/2022 14:07:24 - INFO - Epoch 5 validation loss: 9.9670
+17/08/2022 14:07:24 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_5_see_335628_bat_64_hid_256_los_9.9670
+17/08/2022 14:07:39 - INFO - Epoch 6 training loss: 9.5533
+17/08/2022 14:07:39 - INFO - Epoch 6 validation loss: 9.4946
+17/08/2022 14:07:39 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_6_see_335628_bat_64_hid_256_los_9.4946
+17/08/2022 14:07:55 - INFO - Epoch 7 training loss: 9.2899
+17/08/2022 14:07:55 - INFO - Epoch 7 validation loss: 9.5071
+17/08/2022 14:08:10 - INFO - Epoch 8 training loss: 9.2163
+17/08/2022 14:08:10 - INFO - Epoch 8 validation loss: 10.1582
+17/08/2022 14:08:25 - INFO - Epoch 9 training loss: 9.0359
+17/08/2022 14:08:25 - INFO - Epoch 9 validation loss: 9.2518
+17/08/2022 14:08:25 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_9_see_335628_bat_64_hid_256_los_9.2518
+17/08/2022 14:08:41 - INFO - Epoch 10 training loss: 8.8119
+17/08/2022 14:08:41 - INFO - Epoch 10 validation loss: 9.5347
+17/08/2022 14:08:56 - INFO - Epoch 11 training loss: 8.7270
+17/08/2022 14:08:56 - INFO - Epoch 11 validation loss: 9.0993
+17/08/2022 14:08:56 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_11_see_335628_bat_64_hid_256_los_9.0993
+17/08/2022 14:09:12 - INFO - Epoch 12 training loss: 8.8272
+17/08/2022 14:09:12 - INFO - Epoch 12 validation loss: 9.1808
+17/08/2022 14:09:27 - INFO - Epoch 13 training loss: 8.6625
+17/08/2022 14:09:27 - INFO - Epoch 13 validation loss: 9.5476
+17/08/2022 14:09:43 - INFO - Epoch 14 training loss: 8.6894
+17/08/2022 14:09:43 - INFO - Epoch 14 validation loss: 9.1736
+17/08/2022 14:09:58 - INFO - Epoch 15 training loss: 8.5911
+17/08/2022 14:09:58 - INFO - Epoch 15 validation loss: 9.9564
+17/08/2022 14:09:58 - INFO - Starting training mode...
+17/08/2022 14:09:58 - INFO - ***** Running training *****
+17/08/2022 14:10:14 - INFO - Epoch 0 training loss: 47.9320
+17/08/2022 14:10:14 - INFO - Epoch 0 validation loss: 17.2932
+17/08/2022 14:10:14 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_0_see_369_bat_64_hid_256_los_17.2932
+17/08/2022 14:10:29 - INFO - Epoch 1 training loss: 15.0706
+17/08/2022 14:10:29 - INFO - Epoch 1 validation loss: 12.8913
+17/08/2022 14:10:29 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_1_see_369_bat_64_hid_256_los_12.8913
+17/08/2022 14:10:44 - INFO - Epoch 2 training loss: 12.5490
+17/08/2022 14:10:44 - INFO - Epoch 2 validation loss: 11.4046
+17/08/2022 14:10:44 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_2_see_369_bat_64_hid_256_los_11.4046
+17/08/2022 14:11:00 - INFO - Epoch 3 training loss: 11.3065
+17/08/2022 14:11:00 - INFO - Epoch 3 validation loss: 10.6414
+17/08/2022 14:11:00 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_3_see_369_bat_64_hid_256_los_10.6414
+17/08/2022 14:11:15 - INFO - Epoch 4 training loss: 10.5284
+17/08/2022 14:11:15 - INFO - Epoch 4 validation loss: 10.1375
+17/08/2022 14:11:15 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_4_see_369_bat_64_hid_256_los_10.1375
+17/08/2022 14:11:31 - INFO - Epoch 5 training loss: 10.0668
+17/08/2022 14:11:31 - INFO - Epoch 5 validation loss: 9.8057
+17/08/2022 14:11:31 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_5_see_369_bat_64_hid_256_los_9.8057
+17/08/2022 14:11:46 - INFO - Epoch 6 training loss: 9.6528
+17/08/2022 14:11:46 - INFO - Epoch 6 validation loss: 10.0733
+17/08/2022 14:12:01 - INFO - Epoch 7 training loss: 9.4501
+17/08/2022 14:12:01 - INFO - Epoch 7 validation loss: 9.3353
+17/08/2022 14:12:01 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_7_see_369_bat_64_hid_256_los_9.3353
+17/08/2022 14:12:17 - INFO - Epoch 8 training loss: 9.1684
+17/08/2022 14:12:17 - INFO - Epoch 8 validation loss: 9.6858
+17/08/2022 14:12:32 - INFO - Epoch 9 training loss: 9.0832
+17/08/2022 14:12:32 - INFO - Epoch 9 validation loss: 9.2331
+17/08/2022 14:12:32 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_9_see_369_bat_64_hid_256_los_9.2331
+17/08/2022 14:12:48 - INFO - Epoch 10 training loss: 8.8680
+17/08/2022 14:12:48 - INFO - Epoch 10 validation loss: 9.3763
+17/08/2022 14:13:03 - INFO - Epoch 11 training loss: 8.8384
+17/08/2022 14:13:03 - INFO - Epoch 11 validation loss: 10.2264
+17/08/2022 14:13:18 - INFO - Epoch 12 training loss: 8.8543
+17/08/2022 14:13:18 - INFO - Epoch 12 validation loss: 9.4641
+17/08/2022 14:13:34 - INFO - Epoch 13 training loss: 8.5732
+17/08/2022 14:13:34 - INFO - Epoch 13 validation loss: 9.1481
+17/08/2022 14:13:34 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_13_see_369_bat_64_hid_256_los_9.1481
+17/08/2022 14:13:49 - INFO - Epoch 14 training loss: 8.6675
+17/08/2022 14:13:49 - INFO - Epoch 14 validation loss: 9.4126
+17/08/2022 14:14:05 - INFO - Epoch 15 training loss: 8.5719
+17/08/2022 14:14:05 - INFO - Epoch 15 validation loss: 8.9634
+17/08/2022 14:14:05 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_15_see_369_bat_64_hid_256_los_8.9634
+17/08/2022 14:14:20 - INFO - Epoch 16 training loss: 8.4931
+17/08/2022 14:14:20 - INFO - Epoch 16 validation loss: 9.2042
+17/08/2022 14:14:35 - INFO - Epoch 17 training loss: 8.5836
+17/08/2022 14:14:35 - INFO - Epoch 17 validation loss: 9.8384
+17/08/2022 14:14:51 - INFO - Epoch 18 training loss: 8.5764
+17/08/2022 14:14:51 - INFO - Epoch 18 validation loss: 9.7021
+17/08/2022 14:15:06 - INFO - Epoch 19 training loss: 8.6460
+17/08/2022 14:15:06 - INFO - Epoch 19 validation loss: 9.3985
+17/08/2022 14:15:06 - INFO - Starting training mode...
+17/08/2022 14:15:06 - INFO - ***** Running training *****
+17/08/2022 14:15:22 - INFO - Epoch 0 training loss: 46.8844
+17/08/2022 14:15:22 - INFO - Epoch 0 validation loss: 17.7455
+17/08/2022 14:15:22 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_0_see_456889_bat_64_hid_256_los_17.7455
+17/08/2022 14:15:37 - INFO - Epoch 1 training loss: 15.1790
+17/08/2022 14:15:37 - INFO - Epoch 1 validation loss: 13.0567
+17/08/2022 14:15:37 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_1_see_456889_bat_64_hid_256_los_13.0567
+17/08/2022 14:15:52 - INFO - Epoch 2 training loss: 12.5984
+17/08/2022 14:15:52 - INFO - Epoch 2 validation loss: 11.5745
+17/08/2022 14:15:52 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_2_see_456889_bat_64_hid_256_los_11.5745
+17/08/2022 14:16:08 - INFO - Epoch 3 training loss: 11.3655
+17/08/2022 14:16:08 - INFO - Epoch 3 validation loss: 10.6115
+17/08/2022 14:16:08 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_3_see_456889_bat_64_hid_256_los_10.6115
+17/08/2022 14:16:23 - INFO - Epoch 4 training loss: 10.5494
+17/08/2022 14:16:23 - INFO - Epoch 4 validation loss: 10.1998
+17/08/2022 14:16:23 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_4_see_456889_bat_64_hid_256_los_10.1998
+17/08/2022 14:16:38 - INFO - Epoch 5 training loss: 10.0873
+17/08/2022 14:16:38 - INFO - Epoch 5 validation loss: 9.8276
+17/08/2022 14:16:38 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_5_see_456889_bat_64_hid_256_los_9.8276
+17/08/2022 14:16:54 - INFO - Epoch 6 training loss: 9.6892
+17/08/2022 14:16:54 - INFO - Epoch 6 validation loss: 9.5114
+17/08/2022 14:16:54 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_6_see_456889_bat_64_hid_256_los_9.5114
+17/08/2022 14:17:09 - INFO - Epoch 7 training loss: 9.3738
+17/08/2022 14:17:09 - INFO - Epoch 7 validation loss: 9.5659
+17/08/2022 14:17:24 - INFO - Epoch 8 training loss: 9.2875
+17/08/2022 14:17:24 - INFO - Epoch 8 validation loss: 9.5598
+17/08/2022 14:17:40 - INFO - Epoch 9 training loss: 9.0041
+17/08/2022 14:17:40 - INFO - Epoch 9 validation loss: 9.1206
+17/08/2022 14:17:40 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_9_see_456889_bat_64_hid_256_los_9.1206
+17/08/2022 14:17:55 - INFO - Epoch 10 training loss: 8.8322
+17/08/2022 14:17:55 - INFO - Epoch 10 validation loss: 9.2559
+17/08/2022 14:18:11 - INFO - Epoch 11 training loss: 9.0366
+17/08/2022 14:18:11 - INFO - Epoch 11 validation loss: 9.7653
+17/08/2022 14:18:26 - INFO - Epoch 12 training loss: 8.8121
+17/08/2022 14:18:26 - INFO - Epoch 12 validation loss: 9.0645
+17/08/2022 14:18:26 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/gpt2/heads_woLSTM/Epo_12_see_456889_bat_64_hid_256_los_9.0645
+17/08/2022 14:18:42 - INFO - Epoch 13 training loss: 8.6407
+17/08/2022 14:18:42 - INFO - Epoch 13 validation loss: 9.3276
+17/08/2022 14:18:58 - INFO - Epoch 14 training loss: 8.6171
+17/08/2022 14:18:58 - INFO - Epoch 14 validation loss: 9.2959
+17/08/2022 14:19:14 - INFO - Epoch 15 training loss: 8.5208
+17/08/2022 14:19:14 - INFO - Epoch 15 validation loss: 9.7317
+17/08/2022 14:19:29 - INFO - Epoch 16 training loss: 8.6727
+17/08/2022 14:19:29 - INFO - Epoch 16 validation loss: 10.0905

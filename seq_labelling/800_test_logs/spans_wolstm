@@ -1,0 +1,91 @@
+15/08/2022 15:10:06 - INFO - Loading test dataset...
+15/08/2022 15:10:06 - INFO - Extracting embeddings from pre-trained model...
+Some weights of the model checkpoint at transfo-xl-wt103 were not used when initializing TransfoXLModel: ['crit.out_layers.3.weight', 'crit.out_projs.1', 'crit.cluster_weight', 'crit.out_layers.0.weight', 'crit.out_projs.3', 'crit.out_layers.1.bias', 'crit.out_layers.2.bias', 'crit.out_layers.1.weight', 'crit.out_projs.0', 'crit.out_layers.3.bias', 'crit.out_projs.2', 'crit.cluster_bias', 'crit.out_layers.2.weight', 'crit.out_layers.0.bias']
+- This IS expected if you are initializing TransfoXLModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TransfoXLModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+15/08/2022 15:10:14 - INFO - Finished!
+15/08/2022 15:10:14 - INFO - Starting evaluation mode with test...
+15/08/2022 15:10:14 - INFO - ***** Running evaluation *****
+15/08/2022 15:10:14 - INFO - data_size: 680
+15/08/2022 15:10:14 - INFO - Accuracy: 0.8402980565904743
+15/08/2022 15:10:14 - INFO - Detailed evaluation:
+              precision    recall  f1-score   support
+
+         new       0.74      0.82      0.78      1535
+         old       0.68      0.58      0.63      1039
+
+   micro avg       0.72      0.72      0.72      2574
+   macro avg       0.71      0.70      0.70      2574
+weighted avg       0.72      0.72      0.72      2574
+
+15/08/2022 15:10:14 - INFO - Starting evaluation mode with test...
+15/08/2022 15:10:14 - INFO - ***** Running evaluation *****
+15/08/2022 15:10:14 - INFO - data_size: 680
+15/08/2022 15:10:14 - INFO - Accuracy: 0.8402980565904743
+15/08/2022 15:10:14 - INFO - Detailed evaluation:
+              precision    recall  f1-score   support
+
+         new       0.74      0.82      0.78      1535
+         old       0.68      0.58      0.63      1039
+
+   micro avg       0.72      0.72      0.72      2574
+   macro avg       0.71      0.70      0.70      2574
+weighted avg       0.72      0.72      0.72      2574
+
+15/08/2022 15:10:15 - INFO - Starting evaluation mode with test...
+15/08/2022 15:10:15 - INFO - ***** Running evaluation *****
+15/08/2022 15:10:15 - INFO - data_size: 680
+15/08/2022 15:10:15 - INFO - Accuracy: 0.8402980565904743
+15/08/2022 15:10:15 - INFO - Detailed evaluation:
+              precision    recall  f1-score   support
+
+         new       0.74      0.82      0.78      1535
+         old       0.68      0.58      0.63      1039
+
+   micro avg       0.72      0.72      0.72      2574
+   macro avg       0.71      0.70      0.70      2574
+weighted avg       0.72      0.72      0.72      2574
+
+15/08/2022 15:10:15 - INFO - Starting evaluation mode with test...
+15/08/2022 15:10:15 - INFO - ***** Running evaluation *****
+15/08/2022 15:10:15 - INFO - data_size: 680
+15/08/2022 15:10:15 - INFO - Accuracy: 0.8402980565904743
+15/08/2022 15:10:15 - INFO - Detailed evaluation:
+              precision    recall  f1-score   support
+
+         new       0.74      0.82      0.78      1535
+         old       0.68      0.58      0.63      1039
+
+   micro avg       0.72      0.72      0.72      2574
+   macro avg       0.71      0.70      0.70      2574
+weighted avg       0.72      0.72      0.72      2574
+
+15/08/2022 15:10:16 - INFO - Starting evaluation mode with test...
+15/08/2022 15:10:16 - INFO - ***** Running evaluation *****
+15/08/2022 15:10:16 - INFO - data_size: 680
+15/08/2022 15:10:16 - INFO - Accuracy: 0.8402980565904743
+15/08/2022 15:10:16 - INFO - Detailed evaluation:
+              precision    recall  f1-score   support
+
+         new       0.74      0.82      0.78      1535
+         old       0.68      0.58      0.63      1039
+
+   micro avg       0.72      0.72      0.72      2574
+   macro avg       0.71      0.70      0.70      2574
+weighted avg       0.72      0.72      0.72      2574
+
+{'new': {'precision': 0.742603550295858, 'recall': 0.8175895765472313, 'f1-score': 0.7782945736434109, 'support': 1535}, 'old': {'precision': 0.6832579185520362, 'recall': 0.5813282001924928, 'f1-score': 0.6281851274050962, 'support': 1039}, 'micro avg': {'precision': 0.7222222222222222, 'recall': 0.7222222222222222, 'f1-score': 0.7222222222222222, 'support': 2574}, 'macro avg': {'precision': 0.712930734423947, 'recall': 0.699458888369862, 'f1-score': 0.7032398505242536, 'support': 2574}, 'weighted avg': {'precision': 0.7186485730690394, 'recall': 0.7222222222222222, 'f1-score': 0.7177026099131821, 'support': 2574}}
+{'new': {'precision': 0.742603550295858, 'recall': 0.8175895765472313, 'f1-score': 0.7782945736434109, 'support': 1535}, 'old': {'precision': 0.6832579185520362, 'recall': 0.5813282001924928, 'f1-score': 0.6281851274050962, 'support': 1039}, 'micro avg': {'precision': 0.7222222222222222, 'recall': 0.7222222222222222, 'f1-score': 0.7222222222222222, 'support': 2574}, 'macro avg': {'precision': 0.712930734423947, 'recall': 0.699458888369862, 'f1-score': 0.7032398505242536, 'support': 2574}, 'weighted avg': {'precision': 0.7186485730690394, 'recall': 0.7222222222222222, 'f1-score': 0.7177026099131821, 'support': 2574}}
+{'new': {'precision': 0.742603550295858, 'recall': 0.8175895765472313, 'f1-score': 0.7782945736434109, 'support': 1535}, 'old': {'precision': 0.6832579185520362, 'recall': 0.5813282001924928, 'f1-score': 0.6281851274050962, 'support': 1039}, 'micro avg': {'precision': 0.7222222222222222, 'recall': 0.7222222222222222, 'f1-score': 0.7222222222222222, 'support': 2574}, 'macro avg': {'precision': 0.712930734423947, 'recall': 0.699458888369862, 'f1-score': 0.7032398505242536, 'support': 2574}, 'weighted avg': {'precision': 0.7186485730690394, 'recall': 0.7222222222222222, 'f1-score': 0.7177026099131821, 'support': 2574}}
+{'new': {'precision': 0.742603550295858, 'recall': 0.8175895765472313, 'f1-score': 0.7782945736434109, 'support': 1535}, 'old': {'precision': 0.6832579185520362, 'recall': 0.5813282001924928, 'f1-score': 0.6281851274050962, 'support': 1039}, 'micro avg': {'precision': 0.7222222222222222, 'recall': 0.7222222222222222, 'f1-score': 0.7222222222222222, 'support': 2574}, 'macro avg': {'precision': 0.712930734423947, 'recall': 0.699458888369862, 'f1-score': 0.7032398505242536, 'support': 2574}, 'weighted avg': {'precision': 0.7186485730690394, 'recall': 0.7222222222222222, 'f1-score': 0.7177026099131821, 'support': 2574}}
+{'new': {'precision': 0.742603550295858, 'recall': 0.8175895765472313, 'f1-score': 0.7782945736434109, 'support': 1535}, 'old': {'precision': 0.6832579185520362, 'recall': 0.5813282001924928, 'f1-score': 0.6281851274050962, 'support': 1039}, 'micro avg': {'precision': 0.7222222222222222, 'recall': 0.7222222222222222, 'f1-score': 0.7222222222222222, 'support': 2574}, 'macro avg': {'precision': 0.712930734423947, 'recall': 0.699458888369862, 'f1-score': 0.7032398505242536, 'support': 2574}, 'weighted avg': {'precision': 0.7186485730690394, 'recall': 0.7222222222222222, 'f1-score': 0.7177026099131821, 'support': 2574}}
+new
+prec: 0.74 (0.00)
+rec: 0.82 (0.00)
+f1: 0.78 (0.00)
+old
+prec: 0.68 (0.00)
+rec: 0.58 (0.00)
+f1: 0.63 (0.00)
+avg f1: 0.72 (0.00)
+

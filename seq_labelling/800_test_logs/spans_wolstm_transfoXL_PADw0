@@ -1,0 +1,87 @@
+17/08/2022 16:19:53 - INFO - Loading test dataset...
+17/08/2022 16:19:53 - INFO - Extracting embeddings from pre-trained model...
+17/08/2022 16:19:53 - INFO - Finished!
+17/08/2022 16:19:53 - INFO - Starting evaluation mode with test...
+17/08/2022 16:19:53 - INFO - ***** Running evaluation *****
+17/08/2022 16:19:53 - INFO - data_size: 680
+17/08/2022 16:19:53 - INFO - Accuracy: 0.8402980565904743
+17/08/2022 16:19:54 - INFO - Detailed evaluation:
+              precision    recall  f1-score   support
+
+         new       0.74      0.82      0.78      1535
+         old       0.68      0.58      0.63      1039
+
+   micro avg       0.72      0.72      0.72      2574
+   macro avg       0.71      0.70      0.70      2574
+weighted avg       0.72      0.72      0.72      2574
+
+17/08/2022 16:19:54 - INFO - Starting evaluation mode with test...
+17/08/2022 16:19:54 - INFO - ***** Running evaluation *****
+17/08/2022 16:19:54 - INFO - data_size: 680
+17/08/2022 16:19:54 - INFO - Accuracy: 0.8402980565904743
+17/08/2022 16:19:54 - INFO - Detailed evaluation:
+              precision    recall  f1-score   support
+
+         new       0.74      0.82      0.78      1535
+         old       0.68      0.58      0.63      1039
+
+   micro avg       0.72      0.72      0.72      2574
+   macro avg       0.71      0.70      0.70      2574
+weighted avg       0.72      0.72      0.72      2574
+
+17/08/2022 16:19:54 - INFO - Starting evaluation mode with test...
+17/08/2022 16:19:54 - INFO - ***** Running evaluation *****
+17/08/2022 16:19:54 - INFO - data_size: 680
+17/08/2022 16:19:54 - INFO - Accuracy: 0.8402980565904743
+17/08/2022 16:19:55 - INFO - Detailed evaluation:
+              precision    recall  f1-score   support
+
+         new       0.74      0.82      0.78      1535
+         old       0.68      0.58      0.63      1039
+
+   micro avg       0.72      0.72      0.72      2574
+   macro avg       0.71      0.70      0.70      2574
+weighted avg       0.72      0.72      0.72      2574
+
+17/08/2022 16:19:55 - INFO - Starting evaluation mode with test...
+17/08/2022 16:19:55 - INFO - ***** Running evaluation *****
+17/08/2022 16:19:55 - INFO - data_size: 680
+17/08/2022 16:19:55 - INFO - Accuracy: 0.8402980565904743
+17/08/2022 16:19:55 - INFO - Detailed evaluation:
+              precision    recall  f1-score   support
+
+         new       0.74      0.82      0.78      1535
+         old       0.68      0.58      0.63      1039
+
+   micro avg       0.72      0.72      0.72      2574
+   macro avg       0.71      0.70      0.70      2574
+weighted avg       0.72      0.72      0.72      2574
+
+17/08/2022 16:19:55 - INFO - Starting evaluation mode with test...
+17/08/2022 16:19:55 - INFO - ***** Running evaluation *****
+17/08/2022 16:19:55 - INFO - data_size: 680
+17/08/2022 16:19:55 - INFO - Accuracy: 0.8402980565904743
+17/08/2022 16:19:56 - INFO - Detailed evaluation:
+              precision    recall  f1-score   support
+
+         new       0.74      0.82      0.78      1535
+         old       0.68      0.58      0.63      1039
+
+   micro avg       0.72      0.72      0.72      2574
+   macro avg       0.71      0.70      0.70      2574
+weighted avg       0.72      0.72      0.72      2574
+
+{'new': {'precision': 0.742603550295858, 'recall': 0.8175895765472313, 'f1-score': 0.7782945736434109, 'support': 1535}, 'old': {'precision': 0.6832579185520362, 'recall': 0.5813282001924928, 'f1-score': 0.6281851274050962, 'support': 1039}, 'micro avg': {'precision': 0.7222222222222222, 'recall': 0.7222222222222222, 'f1-score': 0.7222222222222222, 'support': 2574}, 'macro avg': {'precision': 0.712930734423947, 'recall': 0.699458888369862, 'f1-score': 0.7032398505242536, 'support': 2574}, 'weighted avg': {'precision': 0.7186485730690394, 'recall': 0.7222222222222222, 'f1-score': 0.7177026099131821, 'support': 2574}}
+{'new': {'precision': 0.742603550295858, 'recall': 0.8175895765472313, 'f1-score': 0.7782945736434109, 'support': 1535}, 'old': {'precision': 0.6832579185520362, 'recall': 0.5813282001924928, 'f1-score': 0.6281851274050962, 'support': 1039}, 'micro avg': {'precision': 0.7222222222222222, 'recall': 0.7222222222222222, 'f1-score': 0.7222222222222222, 'support': 2574}, 'macro avg': {'precision': 0.712930734423947, 'recall': 0.699458888369862, 'f1-score': 0.7032398505242536, 'support': 2574}, 'weighted avg': {'precision': 0.7186485730690394, 'recall': 0.7222222222222222, 'f1-score': 0.7177026099131821, 'support': 2574}}
+{'new': {'precision': 0.742603550295858, 'recall': 0.8175895765472313, 'f1-score': 0.7782945736434109, 'support': 1535}, 'old': {'precision': 0.6832579185520362, 'recall': 0.5813282001924928, 'f1-score': 0.6281851274050962, 'support': 1039}, 'micro avg': {'precision': 0.7222222222222222, 'recall': 0.7222222222222222, 'f1-score': 0.7222222222222222, 'support': 2574}, 'macro avg': {'precision': 0.712930734423947, 'recall': 0.699458888369862, 'f1-score': 0.7032398505242536, 'support': 2574}, 'weighted avg': {'precision': 0.7186485730690394, 'recall': 0.7222222222222222, 'f1-score': 0.7177026099131821, 'support': 2574}}
+{'new': {'precision': 0.742603550295858, 'recall': 0.8175895765472313, 'f1-score': 0.7782945736434109, 'support': 1535}, 'old': {'precision': 0.6832579185520362, 'recall': 0.5813282001924928, 'f1-score': 0.6281851274050962, 'support': 1039}, 'micro avg': {'precision': 0.7222222222222222, 'recall': 0.7222222222222222, 'f1-score': 0.7222222222222222, 'support': 2574}, 'macro avg': {'precision': 0.712930734423947, 'recall': 0.699458888369862, 'f1-score': 0.7032398505242536, 'support': 2574}, 'weighted avg': {'precision': 0.7186485730690394, 'recall': 0.7222222222222222, 'f1-score': 0.7177026099131821, 'support': 2574}}
+{'new': {'precision': 0.742603550295858, 'recall': 0.8175895765472313, 'f1-score': 0.7782945736434109, 'support': 1535}, 'old': {'precision': 0.6832579185520362, 'recall': 0.5813282001924928, 'f1-score': 0.6281851274050962, 'support': 1039}, 'micro avg': {'precision': 0.7222222222222222, 'recall': 0.7222222222222222, 'f1-score': 0.7222222222222222, 'support': 2574}, 'macro avg': {'precision': 0.712930734423947, 'recall': 0.699458888369862, 'f1-score': 0.7032398505242536, 'support': 2574}, 'weighted avg': {'precision': 0.7186485730690394, 'recall': 0.7222222222222222, 'f1-score': 0.7177026099131821, 'support': 2574}}
+new
+prec: 0.74 (0.00)
+rec: 0.82 (0.00)
+f1: 0.78 (0.00)
+old
+prec: 0.68 (0.00)
+rec: 0.58 (0.00)
+f1: 0.63 (0.00)
+avg f1: 0.72 (0.00)

@@ -1,0 +1,115 @@
+15/08/2022 12:55:07 - INFO - Loading train dataset...
+15/08/2022 12:55:07 - INFO - Extracting embeddings from pre-trained model...
+Some weights of the model checkpoint at transfo-xl-wt103 were not used when initializing TransfoXLModel: ['crit.cluster_bias', 'crit.out_projs.2', 'crit.out_projs.1', 'crit.out_layers.1.weight', 'crit.out_layers.3.weight', 'crit.out_projs.3', 'crit.out_layers.0.bias', 'crit.out_layers.3.bias', 'crit.out_layers.0.weight', 'crit.out_layers.2.weight', 'crit.out_projs.0', 'crit.out_layers.1.bias', 'crit.out_layers.2.bias', 'crit.cluster_weight']
+- This IS expected if you are initializing TransfoXLModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TransfoXLModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+15/08/2022 12:55:15 - INFO - Finished!
+15/08/2022 12:55:15 - INFO - Loading dev dataset...
+15/08/2022 12:55:15 - INFO - Extracting embeddings from pre-trained model...
+Some weights of the model checkpoint at transfo-xl-wt103 were not used when initializing TransfoXLModel: ['crit.cluster_bias', 'crit.out_projs.2', 'crit.out_projs.1', 'crit.out_layers.1.weight', 'crit.out_layers.3.weight', 'crit.out_projs.3', 'crit.out_layers.0.bias', 'crit.out_layers.3.bias', 'crit.out_layers.0.weight', 'crit.out_layers.2.weight', 'crit.out_projs.0', 'crit.out_layers.1.bias', 'crit.out_layers.2.bias', 'crit.cluster_weight']
+- This IS expected if you are initializing TransfoXLModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TransfoXLModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+15/08/2022 12:55:22 - INFO - Finished!
+15/08/2022 12:55:22 - INFO - Starting training mode...
+15/08/2022 12:55:22 - INFO - ***** Running training *****
+/home/sharid/.env/lib/python3.8/site-packages/torchcrf/__init__.py:249: UserWarning: where received a uint8 condition tensor. This behavior is deprecated and will be removed in a future version of PyTorch. Use a boolean condition instead. (Triggered internally at  ../aten/src/ATen/native/TensorCompare.cpp:402.)
+  score = torch.where(mask[i].unsqueeze(1), next_score, score)
+15/08/2022 12:55:40 - INFO - Epoch 0 training loss: 19.0627
+15/08/2022 12:55:40 - INFO - Epoch 0 validation loss: 11.1791
+15/08/2022 12:55:40 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/transfo-xl-wt103_800/spans/lstm/Epo_0_see_170841_bat_64_hid_256_los_11.1791
+15/08/2022 12:55:55 - INFO - Epoch 1 training loss: 8.9938
+15/08/2022 12:55:55 - INFO - Epoch 1 validation loss: 8.1924
+15/08/2022 12:55:55 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/transfo-xl-wt103_800/spans/lstm/Epo_1_see_170841_bat_64_hid_256_los_8.1924
+15/08/2022 12:56:10 - INFO - Epoch 2 training loss: 6.0535
+15/08/2022 12:56:10 - INFO - Epoch 2 validation loss: 7.3968
+15/08/2022 12:56:10 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/transfo-xl-wt103_800/spans/lstm/Epo_2_see_170841_bat_64_hid_256_los_7.3968
+15/08/2022 12:56:25 - INFO - Epoch 3 training loss: 4.3899
+15/08/2022 12:56:25 - INFO - Epoch 3 validation loss: 7.6688
+15/08/2022 12:56:40 - INFO - Epoch 4 training loss: 3.1541
+15/08/2022 12:56:40 - INFO - Epoch 4 validation loss: 7.4107
+15/08/2022 12:56:55 - INFO - Epoch 5 training loss: 2.2246
+15/08/2022 12:56:55 - INFO - Epoch 5 validation loss: 8.2742
+15/08/2022 12:57:11 - INFO - Epoch 6 training loss: 1.6734
+15/08/2022 12:57:11 - INFO - Epoch 6 validation loss: 9.6848
+15/08/2022 12:57:11 - INFO - Starting training mode...
+15/08/2022 12:57:11 - INFO - ***** Running training *****
+15/08/2022 12:57:26 - INFO - Epoch 0 training loss: 18.6708
+15/08/2022 12:57:26 - INFO - Epoch 0 validation loss: 11.5431
+15/08/2022 12:57:26 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/transfo-xl-wt103_800/spans/lstm/Epo_0_see_28202_bat_64_hid_256_los_11.5431
+15/08/2022 12:57:41 - INFO - Epoch 1 training loss: 9.0374
+15/08/2022 12:57:41 - INFO - Epoch 1 validation loss: 8.5783
+15/08/2022 12:57:41 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/transfo-xl-wt103_800/spans/lstm/Epo_1_see_28202_bat_64_hid_256_los_8.5783
+15/08/2022 12:57:56 - INFO - Epoch 2 training loss: 6.0075
+15/08/2022 12:57:56 - INFO - Epoch 2 validation loss: 7.4283
+15/08/2022 12:57:56 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/transfo-xl-wt103_800/spans/lstm/Epo_2_see_28202_bat_64_hid_256_los_7.4283
+15/08/2022 12:58:11 - INFO - Epoch 3 training loss: 4.3640
+15/08/2022 12:58:11 - INFO - Epoch 3 validation loss: 7.0619
+15/08/2022 12:58:11 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/transfo-xl-wt103_800/spans/lstm/Epo_3_see_28202_bat_64_hid_256_los_7.0619
+15/08/2022 12:58:26 - INFO - Epoch 4 training loss: 3.2649
+15/08/2022 12:58:26 - INFO - Epoch 4 validation loss: 7.1405
+15/08/2022 12:58:41 - INFO - Epoch 5 training loss: 2.3267
+15/08/2022 12:58:41 - INFO - Epoch 5 validation loss: 8.2097
+15/08/2022 12:58:57 - INFO - Epoch 6 training loss: 1.7231
+15/08/2022 12:58:57 - INFO - Epoch 6 validation loss: 8.6278
+15/08/2022 12:59:12 - INFO - Epoch 7 training loss: 1.4317
+15/08/2022 12:59:12 - INFO - Epoch 7 validation loss: 9.3919
+15/08/2022 12:59:12 - INFO - Starting training mode...
+15/08/2022 12:59:12 - INFO - ***** Running training *****
+15/08/2022 12:59:27 - INFO - Epoch 0 training loss: 18.6827
+15/08/2022 12:59:27 - INFO - Epoch 0 validation loss: 10.8906
+15/08/2022 12:59:27 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/transfo-xl-wt103_800/spans/lstm/Epo_0_see_335628_bat_64_hid_256_los_10.8906
+15/08/2022 12:59:42 - INFO - Epoch 1 training loss: 8.7876
+15/08/2022 12:59:42 - INFO - Epoch 1 validation loss: 8.5838
+15/08/2022 12:59:42 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/transfo-xl-wt103_800/spans/lstm/Epo_1_see_335628_bat_64_hid_256_los_8.5838
+15/08/2022 12:59:57 - INFO - Epoch 2 training loss: 5.9693
+15/08/2022 12:59:57 - INFO - Epoch 2 validation loss: 7.8627
+15/08/2022 12:59:57 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/transfo-xl-wt103_800/spans/lstm/Epo_2_see_335628_bat_64_hid_256_los_7.8627
+15/08/2022 13:00:12 - INFO - Epoch 3 training loss: 4.1671
+15/08/2022 13:00:12 - INFO - Epoch 3 validation loss: 7.3917
+15/08/2022 13:00:12 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/transfo-xl-wt103_800/spans/lstm/Epo_3_see_335628_bat_64_hid_256_los_7.3917
+15/08/2022 13:00:28 - INFO - Epoch 4 training loss: 2.8985
+15/08/2022 13:00:28 - INFO - Epoch 4 validation loss: 7.8780
+15/08/2022 13:00:43 - INFO - Epoch 5 training loss: 2.1069
+15/08/2022 13:00:43 - INFO - Epoch 5 validation loss: 8.3842
+15/08/2022 13:00:58 - INFO - Epoch 6 training loss: 1.5915
+15/08/2022 13:00:58 - INFO - Epoch 6 validation loss: 8.6952
+15/08/2022 13:01:13 - INFO - Epoch 7 training loss: 1.3877
+15/08/2022 13:01:13 - INFO - Epoch 7 validation loss: 9.5485
+15/08/2022 13:01:13 - INFO - Starting training mode...
+15/08/2022 13:01:13 - INFO - ***** Running training *****
+15/08/2022 13:01:29 - INFO - Epoch 0 training loss: 20.2198
+15/08/2022 13:01:29 - INFO - Epoch 0 validation loss: 12.1875
+15/08/2022 13:01:29 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/transfo-xl-wt103_800/spans/lstm/Epo_0_see_369_bat_64_hid_256_los_12.1875
+15/08/2022 13:01:44 - INFO - Epoch 1 training loss: 9.3008
+15/08/2022 13:01:44 - INFO - Epoch 1 validation loss: 8.3372
+15/08/2022 13:01:44 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/transfo-xl-wt103_800/spans/lstm/Epo_1_see_369_bat_64_hid_256_los_8.3372
+15/08/2022 13:02:00 - INFO - Epoch 2 training loss: 6.3225
+15/08/2022 13:02:00 - INFO - Epoch 2 validation loss: 7.0507
+15/08/2022 13:02:00 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/transfo-xl-wt103_800/spans/lstm/Epo_2_see_369_bat_64_hid_256_los_7.0507
+15/08/2022 13:02:15 - INFO - Epoch 3 training loss: 4.5287
+15/08/2022 13:02:15 - INFO - Epoch 3 validation loss: 7.1477
+15/08/2022 13:02:30 - INFO - Epoch 4 training loss: 3.2979
+15/08/2022 13:02:30 - INFO - Epoch 4 validation loss: 7.4568
+15/08/2022 13:02:46 - INFO - Epoch 5 training loss: 2.4208
+15/08/2022 13:02:46 - INFO - Epoch 5 validation loss: 8.0133
+15/08/2022 13:03:01 - INFO - Epoch 6 training loss: 1.8809
+15/08/2022 13:03:01 - INFO - Epoch 6 validation loss: 8.1653
+15/08/2022 13:03:01 - INFO - Starting training mode...
+15/08/2022 13:03:01 - INFO - ***** Running training *****
+15/08/2022 13:03:17 - INFO - Epoch 0 training loss: 18.6994
+15/08/2022 13:03:17 - INFO - Epoch 0 validation loss: 10.8011
+15/08/2022 13:03:17 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/transfo-xl-wt103_800/spans/lstm/Epo_0_see_456889_bat_64_hid_256_los_10.8011
+15/08/2022 13:03:32 - INFO - Epoch 1 training loss: 8.9433
+15/08/2022 13:03:32 - INFO - Epoch 1 validation loss: 8.2456
+15/08/2022 13:03:32 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/transfo-xl-wt103_800/spans/lstm/Epo_1_see_456889_bat_64_hid_256_los_8.2456
+15/08/2022 13:03:48 - INFO - Epoch 2 training loss: 5.9873
+15/08/2022 13:03:48 - INFO - Epoch 2 validation loss: 7.2136
+15/08/2022 13:03:48 - INFO - Saved model: /home/sharid/PycharmProjects/064_entities_in_lms/scratch/transfo-xl-wt103_800/spans/lstm/Epo_2_see_456889_bat_64_hid_256_los_7.2136
+15/08/2022 13:04:03 - INFO - Epoch 3 training loss: 4.2388
+15/08/2022 13:04:03 - INFO - Epoch 3 validation loss: 7.5506
+15/08/2022 13:04:17 - INFO - Epoch 4 training loss: 3.2547
+15/08/2022 13:04:17 - INFO - Epoch 4 validation loss: 7.2306
+15/08/2022 13:04:33 - INFO - Epoch 5 training loss: 2.3345
+15/08/2022 13:04:33 - INFO - Epoch 5 validation loss: 7.6568
+15/08/2022 13:04:48 - INFO - Epoch 6 training loss: 1.7527
+15/08/2022 13:04:48 - INFO - Epoch 6 validation loss: 8.4252
